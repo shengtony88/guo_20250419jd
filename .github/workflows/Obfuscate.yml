@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # 每天凌晨4:00运行
-    - cron: "0 4 * * *"
+    # 每天凌晨1:00运行
+    - cron: "0 1 * * *"
 
 permissions:
   contents: write
